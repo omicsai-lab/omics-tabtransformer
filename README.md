@@ -85,8 +85,5 @@ These figures display the **mean ROC curves** with shaded regions representing t
 - **Weighted average:** Adjusts scores according to class frequencies.  
 - **Recommendation:** Macro is best for overall model fairness; weighted reflects real-world imbalanced performance.
 
----
 
-### Additional Outputs
-- The pipeline prints model summaries (`print(model)`) to display architecture and parameters for TabTransformer and other models.  
-- Fold-level intermediate results can be inspected in the notebook’s execution cells.
+
