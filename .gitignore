@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# raw datasets (例：GEO/GSE等)
+data/
+GSE*.tsv
+GSE*.txt
+
+# DESeq2 的大表（按需保留小的汇总表）
+deseq2_normalized_counts.csv
+deseq2_statistical_results.csv
+
+# 系统/编辑器
+.DS_Store
+.vscode/
+.idea/
